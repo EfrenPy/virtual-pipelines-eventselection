@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: echo hello world
   build_skim:
-    runs-on: uuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: build
         run: |
